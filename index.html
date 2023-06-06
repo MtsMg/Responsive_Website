@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fortuna SW</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/table.css">
+    <link rel="stylesheet" href="/css/modal.css">
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+      />
+    <link rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
       integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
-      crossorigin="anonymous"
-    />
+      crossorigin="anonymous" />
   </head>
+
   <body>
     <!-- Navbar -->
     <nav class="navbar">
       <div class="navbar__container">
-        <a href="#home" id="navbar__logo">FORTUNA</a>
+        <a href="/index.html" id="navbar__logo">FORTUNA</a>
         <div class="navbar__toggle" id="mobile-menu">
           <span class="bar"></span>
           <span class="bar"></span>
@@ -28,36 +33,34 @@
             <a href="#home" class="navbar__links" id="home-page">Home</a>
           </li>
           <li class="navbar__item">
-            <a href="#about" class="navbar__links" id="about-page"
-              >Quem Somos</a
-            >
+            <a href="#about" class="navbar__links" id="about-page">Quem Somos</a>
           </li>
           <li class="navbar__item">
-            <a href="#services" class="navbar__links" id="services-page"
-              >Serviços</a
-            >
+            <a href="#services" class="navbar__links" id="services-page">Serviços</a>
           </li>
           <li class="navbar__item">
-            <a href="#contato" class="navbar__links" id="contacts-page"
-              >Contato</a
-            >
+            <a href="#contato" class="navbar__links" id="contacts-page">Contato</a>
           </li>
         </ul>
       </div>
     </nav>
 
     <!-- Seção Hero -->
+
     <div class="hero" id="home">
-      <div class="hero__container">
-        <h1 class="hero__heading">
-          Te ajudamos a atingir um novo <span>patamar</span>
-        </h1>
-        <p class="hero__description">Infinitas possibilidades</p>
-        <button class="main__btn"><a href="#">Explore</a></button>
+      <div class="home_image">
+        <div class="hero__container">
+          <h1 class="hero__heading">
+            Te ajudamos a atingir <span>um novo patamar</span>
+          </h1>
+          <p class="hero__description">Infinitas possibilidades</p>
+          <button class="main__btn"><a href="#">Explore</a></button>
+        </div>
       </div>
     </div>
 
     <!-- Seção Sobre -->
+
     <div class="main" id="about">
       <div class="main__container">
         <div class="main__img--container">
@@ -70,47 +73,163 @@
             Fazemos websites personalizados para suas necessidades e por um
             valor que cabe em seu bolso
           </p>
-          <button class="main__btn"><a href="#">Ver Serviços</a></button>
+          <button class="main__btn">
+            <a href="#services">Ver Serviços</a>
+          </button>
         </div>
       </div>
     </div>
 
     <!-- Seção de Serviços -->
+
     <div class="services" id="services">
       <h1>Nossos Serviços</h1>
       <div class="services__wrapper">
-        <div class="services__card">
-          <h2>Website Básico</h2>
-          <p>Simples e eficiente</p>
-          <div class="services__btn"><button>Explorar</button></div>
-        </div>
-        <div class="services__card">
-          <h2>Website Intermediário</h2>
-          <p>Animações e página mais trabalhadas</p>
-          <div class="services__btn"><button>Explorar</button></div>
-        </div>
-        <div class="services__card">
-          <h2>Websites Avançados</h2>
-          <p>Mais opções de personalização</p>
-          <div class="services__btn"><button>Explorar</button></div>
-        </div>
-        <div class="services__card">
-          <h2>Website Personalizado</h2>
-          <p>O céu é o limite</p>
-          <div class="services__btn"><button>Explorar</button></div>
-        </div>
+        <a href="/pages/basico.html">
+          <div class="services__card">
+            <h2>Website Básico</h2>
+            <p>Simples e eficiente</p>
+            <div class="services__btn"><button>Explorar</button></div>
+          </div>
+        </a>
+        <a href="#">
+          <div class="services__card">
+            <h2>Website Intermediário</h2>
+            <p>Animações e página mais trabalhadas</p>
+            <div class="services__btn"><button>Explorar</button></div>
+          </div>
+        </a>
+        <a href="#">
+          <div class="services__card">
+            <h2>Websites Avançados</h2>
+            <p>Mais opções de personalização</p>
+            <div class="services__btn"><button>Explorar</button></div>
+          </div>
+        </a>
+        <a href="#">
+          <div class="services__card">
+            <h2>Website Personalizado</h2>
+            <p>O céu é o limite</p>
+            <div class="services__btn"><button>Explorar</button></div>
+          </div>
+        </a>
       </div>
+    </div>
+
+    <!-- tabela -->
+    <div class="table__info">
+      <table>
+        <thead>
+          <tr>
+            <th>
+              Tipos
+            </th>
+            <th>
+              <div>Páginas</div>
+            </th>
+            <th>
+              <div>Animações</div>
+            </th>
+            <th>
+              <div>CMS</div>
+            </th>
+            <th>
+              <div>Responsivo</div>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>BASICO</td>
+            <td>1</td>
+            <td>
+              <span class="material-symbols-outlined close">
+                close
+              </span>
+            </td>
+            <td>
+              <span class="material-symbols-outlined close">
+                close
+              </span>
+            </td>
+            <td>
+              <span class="material-symbols-outlined done">
+                done
+              </span>
+            </td>
+          </tr>
+          <tr>
+            <td>Intermediário</td>
+            <td>3</td>
+            <td>
+              <span class="material-symbols-outlined close">
+                close
+              </span>
+            </td>
+            <td>
+              <span class="material-symbols-outlined done">
+                done
+              </span>
+            </td>
+            <td>
+              <span class="material-symbols-outlined done">
+                done
+              </span>
+            </td>
+          </tr>
+          <tr>
+            <td>Avançado</td>
+            <td>6</td>
+            <td>
+              <span class="material-symbols-outlined done">
+                done
+              </span>
+            </td>
+            <td>
+              <span class="material-symbols-outlined done">
+                done
+              </span>
+            </td>
+            <td>
+              <span class="material-symbols-outlined done">
+                done
+              </span>
+            </td>
+          </tr>
+          <tr>
+            <td>Personalizado</td>
+            <td>Ilimitado</td>
+            <td>
+              <span class="material-symbols-outlined done">
+                done
+              </span>
+            </td>
+            <td>
+              <span class="material-symbols-outlined done">
+                done
+              </span>
+            </td>
+            <td>
+              <span class="material-symbols-outlined done">
+                done
+              </span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </div>
 
     <!-- Seção de contato -->
 
-    <div class="main" id="sign-up">
+    <div class="main" id="contato">
       <div class="main__container">
         <div class="main__content">
           <h1>Entre em contato</h1>
           <h2>Solicite o seu orçamento</h2>
           <p>Veja o que nos torna diferentes</p>
-          <button class="main__btn"><a href="#">Sign Up</a></button>
+          <button class="main__btn" data-show-form>
+            <a>Orçamento</a>
+          </button>
         </div>
         <div class="main__img--container">
           <div class="main__img--card" id="card-2">
@@ -152,26 +271,36 @@
             © FORTUNA SOFTWORKS 2023. All rights reserved
           </p>
           <div class="social__icons">
-            <a href="/" class="social__icon--link" target="_blank"
-              ><i class="fab fa-facebook"></i
-            ></a>
-            <a href="/" class="social__icon--link"
-              ><i class="fab fa-instagram"></i
-            ></a>
-            <a href="/" class="social__icon--link"
-              ><i class="fab fa-youtube"></i
-            ></a>
-            <a href="/" class="social__icon--link"
-              ><i class="fab fa-linkedin"></i
-            ></a>
-            <a href="/" class="social__icon--link"
-              ><i class="fab fa-twitter"></i
-            ></a>
+            <a href="/" class="social__icon--link" target="_blank"><i class="fab
+                fa-facebook"></i></a>
+            <a href="/" class="social__icon--link"><i class="fab fa-instagram"></i></a>
+            <a href="/" class="social__icon--link"><i class="fab fa-youtube"></i></a>
+            <a href="/" class="social__icon--link"><i class="fab fa-linkedin"></i></a>
+            <a href="/" class="social__icon--link"><i class="fab fa-twitter"></i></a>
           </div>
         </div>
       </section>
     </div>
 
-    <script src="index.js"></script>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <h2>Preencha o formulário</h2>
+        <form data-form>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required placeholder="Digite seu nome">
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required placeholder="Digite seu email">
+
+          <button class="main__btn" data-send-contact type="submit">
+            <a>Enviar</a>
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <script src="/js/index.js"></script>
   </body>
+
 </html>
