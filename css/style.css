@@ -14,7 +14,7 @@ body {
 /* Seção da Navbar */
 
 .navbar {
-  background: gray;
+  background: black;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -440,7 +440,7 @@ body {
 
 /* Seção de Serviços */
 .services {
-  background: #201f1f;
+  background: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -530,7 +530,7 @@ body {
 
 /* Footer CSS */
 .footer__container {
-  background-color: white;
+  background-color: black;
   padding: 5rem 0;
   display: flex;
   flex-direction: column;
