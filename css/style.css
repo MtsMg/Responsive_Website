@@ -175,7 +175,7 @@ body {
 
 
 .home_image {
-  background-image: url("images/home_image.avif");
+  background-image: url("../images/home_image.avif");
   display: flex;
   background-size: cover;
   background-repeat: no-repeat;
@@ -476,7 +476,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url("images/webdesign.webp");
+  background-image: url("../images/webdesign.webp");
   transition: 0.3s ease-in;
 }
 
